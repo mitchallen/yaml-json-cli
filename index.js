@@ -23,11 +23,11 @@ function main() {
   // Read the YAML file
   const yamlText = readFileSync(inputYamlFile, 'utf8')
   // Convert it to JSON
-  const jsonText = yaml.load(yamlText)
+  const jsonObject = yaml.load(yamlText)
   // Minimize it
-  const minJson = JSON.stringify(jsonText)
+  const minJson = JSON.stringify(jsonObject)
   // Format it
-  const prettyJson = JSON.stringify(jsonText, null, 2)
+  const prettyJson = JSON.stringify(jsonObject, null, 2)
   // Use regular version if min flag was set
   const output = minFlag ? minJson : prettyJson;
   // Echo it to the console
