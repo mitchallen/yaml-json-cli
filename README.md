@@ -4,6 +4,8 @@ YAML to JSON command line utility
 
 ## Usage
 
+For the best usage, see the alias section below:
+
 ```sh
 npm exec -- https://github.com/mitchallen/yaml-json-cli input.yml > ~/output.json
 ```
@@ -16,7 +18,9 @@ npm exec -- https://github.com/mitchallen/yaml-json-cli input.yml -m > ~/output.
 
 ### Create an alias
 
-Since the above command is too long to rememeber, create an alias:
+Since the above command is too long to remember, create an alias:
+
+These instructions are for a Mac zsh, but can easily be adapted to a bash shell.
 
 * Open ~/.zshrc in a code editor
 * Add this line (replacing my git URL with yours):
