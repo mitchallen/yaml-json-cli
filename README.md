@@ -22,6 +22,7 @@ Since the above command is too long to remember, create an alias:
 
 These instructions are for a Mac zsh, but can easily be adapted to a bash shell.
 
+* Make sure that you have **npm 7.x** or later (`npm --version`)
 * Open ~/.zshrc in a code editor
 * Add this line (replacing my git URL with yours):
 
